@@ -44,8 +44,8 @@ tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach 
 }
 
 dependencies {
-  implementation("androidx.appcompat:appcompat:1.6.1")
-  implementation("androidx.fragment:fragment-ktx:1.6.1")
+  implementation("androidx.appcompat:appcompat:1.7.0")
+  implementation("androidx.fragment:fragment-ktx:1.8.5")
 
   implementation("com.badlogicgames.gdx:gdx:1.9.14")
   implementation("com.badlogicgames.gdx:gdx-backend-android:1.9.14")
